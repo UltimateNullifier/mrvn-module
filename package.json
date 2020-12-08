@@ -1,0 +1,16 @@
+{
+  "name": "mrvn",
+  "version": "1.0.0",
+  "description": "Send custom POST requests to MRVN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "http",
+    "webhooks",
+    "mrvn"
+  ],
+  "author": "Max Diamond",
+  "license": "ISC"
+}
