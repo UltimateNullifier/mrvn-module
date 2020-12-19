@@ -9,7 +9,7 @@ This module sends custom POST requests to MRVN's webhooks. Make sure to sign up 
 ```
 const mrvn = require("mrvn")
 
-mrvn({ name: "My Website", message: "Some custom event"}, "b76aac94-3b0b-11eb-adc1-0242ac120002")
+mrvn.post({ name: "My Website", message: "Some custom event"}, "b76aac94-3b0b-11eb-adc1-0242ac120002")
 ```
 
-``mrvn()`` takes two parameters, a ``data`` and an ``endpoint``. Data can currently contain a ``name`` and a ``message`` property. 
+``mrvn.post()`` takes two parameters, a ``data`` and an ``endpoint``. Data can currently contain a ``name`` and a ``message`` property. 
