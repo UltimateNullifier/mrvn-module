@@ -1,8 +1,9 @@
 {
   "name": "mrvn",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Send custom POST requests to MRVN",
   "main": "index.js",
+  "repo": "https://github.com/UltimateNullifier/mrvn-module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,5 +13,13 @@
     "mrvn"
   ],
   "author": "Max Diamond",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UltimateNullifier/mrvn-module.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UltimateNullifier/mrvn-module/issues"
+  },
+  "homepage": "https://github.com/UltimateNullifier/mrvn-module#readme"
 }
