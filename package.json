@@ -1,6 +1,6 @@
 {
   "name": "mrvn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Send custom POST requests to MRVN",
   "main": "index.js",
   "scripts": {

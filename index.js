@@ -5,7 +5,7 @@ exports.mrvn = {
     data = JSON.stringify(data);
 
     const options = {
-      hostname: "mrvn.me",
+      hostname: "api.mrvn.me",
       port: 443,
       path: `/p/${endpoint}`,
       method: "POST",
